@@ -3,7 +3,7 @@
   "appName": "CivilVerify",
   "webDir": "www",
   "server": {
-    "url": "http://10.217.122.70:3000",
-    "cleartext": true
+    "url": "https://app1-production-5d5e.up.railway.app",
+    "androidScheme": "https"
   }
 }

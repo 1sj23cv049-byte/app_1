@@ -31,12 +31,18 @@ Edit [`capacitor.config.json`](capacitor.config.json):
   "appId": "com.civilverify.app",
   "appName": "CivilVerify",
   "webDir": "www",
-  "server": { "url": "https://YOUR-RAILWAY-URL.up.railway.app" }
+  "server": {
+    "url": "https://app1-production-5d5e.up.railway.app",
+    "androidScheme": "https"
+  }
 }
 ```
 
-- For the **deployed** app: use the `https://…` Railway URL. Remove the
-  `"cleartext": true` line (only needed for plain-http).
+The live deploy is at **https://app1-production-5d5e.up.railway.app** — that
+is what the shipped APK points at.
+
+- For the **deployed** app: use the `https://…` Railway URL with
+  `"androidScheme": "https"`. No `"cleartext"` needed.
 - For **local testing on the same WiFi** while `npm run dev` runs on this
   PC: `"url": "http://<this-pc-LAN-IP>:3000"` with `"cleartext": true`.
   (LAN IP changes between networks — check with `ipconfig`.)
