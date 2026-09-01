@@ -21,6 +21,10 @@ FROM node:20-bookworm-slim AS runtime
 WORKDIR /app
 ENV NODE_ENV=production
 ENV PORT=3000
+# Next.js standalone server binds to $HOSTNAME. Docker sets HOSTNAME to the
+# container id, so without this the server listens only on that name and the
+# platform's proxy can't reach it (502). Bind all interfaces instead.
+ENV HOSTNAME=0.0.0.0
 
 # Standalone build already bundles the node_modules it needs (including the
 # compiled better-sqlite3 addon) — no toolchain required at runtime.
