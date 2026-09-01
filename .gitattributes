@@ -1,0 +1,17 @@
+# Keep line endings sane across Windows checkouts and the Linux Docker build.
+* text=auto eol=lf
+
+# Scripts that MUST stay LF even on Windows.
+*.sh text eol=lf
+gradlew text eol=lf
+
+# Windows-only batch files stay CRLF.
+*.bat text eol=crlf
+gradlew.bat text eol=crlf
+
+# Binary — never touch.
+*.png binary
+*.jpg binary
+*.jar binary
+*.keystore binary
+*.apk binary
