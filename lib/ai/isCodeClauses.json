@@ -1,0 +1,57 @@
+{
+  "IS 1904:1986": {
+    "title": "Code of practice for design and construction of foundations in soils: General requirements",
+    "clauses": {
+      "7.1": "Depth of foundation depends on: (a) securing adequate allowable bearing capacity, (b) in clayey soils, penetration below the zone where seasonal shrinkage/swelling and tree-root effects cause movement, (c) in fine sands and silts, penetration below the frost-affected zone.",
+      "13.2": "Factor of safety for shallow foundations against overturning shall be not less than 1.5 when dead load, live load and earth pressures are considered together with wind or seismic load; not less than 2 when wind/seismic is excluded.",
+      "15.1.6": "Where wind or seismic load is less than 25% of that due to dead and live loads, it may be neglected in foundation design.",
+      "15.1.7": "Where wind or seismic load exceeds 25% of dead+live load, foundations shall be proportioned so pressure due to (dead+live+wind) does not exceed safe bearing capacity by more than 25%.",
+      "18.1": "Safe bearing capacity for shallow foundations shall be calculated in accordance with IS 6403:1981.",
+      "14.1": "Minimum horizontal spacing between an existing and a new footing shall be equal to the width of the wider footing.",
+      "10.2.4": "On sloping sites, spread foundations shall be on a horizontal bearing and stepped; at changes of level, footings shall be lapped at steps for a distance at least equal to the foundation thickness or twice the step height, whichever is greater."
+    }
+  },
+  "IS 383:1970": {
+    "title": "Specification for Coarse and Fine Aggregates from Natural Sources for Concrete",
+    "clauses": {
+      "3.3": "Aggregate crushing value shall not exceed 45% for aggregate used in concrete other than wearing surfaces, and 30% for concrete used in wearing surfaces (runways, roads, pavements).",
+      "4.1": "Coarse aggregates shall be supplied in nominal single sizes per Table 2 (e.g. 40mm, 20mm, 10mm graded sizes).",
+      "Table 4": "Fine aggregate grading zones I-IV: percentage passing 4.75mm IS sieve is 90-100% across all zones; 600-micron sieve passing ranges from 15-50% (Zone I) to 60-79% (Zone IV) — zone determines suitable fine:coarse aggregate ratio.",
+      "Table 5": "All-in-aggregate grading for 40mm nominal size: 100% passing 80mm, 95-100% passing 40mm, 45-75% passing 20mm, 25-45% passing 4.75mm, 8-30% passing 600-micron.",
+      "3.6": "Soundness test limits: coarse aggregate max 12% loss (sodium sulphate) / 18% (magnesium sulphate); fine aggregate max 10% / 15% respectively."
+    }
+  },
+  "IS 2212:1991": {
+    "title": "Brick Works - Code of Practice",
+    "clauses": {
+      "6.4.1": "No bed joint shall be thicker than 12mm. For modular bricks conforming to IS 1077, four courses plus three joints shall measure 39cm; for traditional bricks, four times actual brick thickness plus 3cm.",
+      "Table 1": "Brick selection by use: Class 12.5 common bricks for external walls exposed to weather and load-bearing walls; Class 7.5 for internal walls; heavy-duty bricks (IS 2180) for very heavy loading; bricks for plinth/foundation below damp course must be free from efflorescence.",
+      "6.7": "Foundation footings in brickwork: refer IS 1080:1985 for construction.",
+      "6.8.4": "All walls shall have a damp-proof course at least 15cm above finished ground/plinth protection level, running without a break throughout the wall length, including under door openings.",
+      "8.1.1(a)": "DPC concrete layer: 10mm nominal size aggregate (IS 383:1970), mix 1:2:4, thickness not less than 4cm, with waterproofing treatment.",
+      "11.10": "Curing: brickwork shall be kept constantly wet for at least 7 days after laying (except mud-mortar brickwork), commencing 24 hours after the course is laid.",
+      "6.9.2": "Wall ties in cavity walls: not more than 4 brick-lengths apart horizontally, not more than 5 brick-heights apart vertically, staggered; minimum 5 ties per m² of wall surface.",
+      "11.8.4": "Crushing strength of bricks used in reinforced brick masonry shall not be less than 7.5 N/mm²."
+    }
+  },
+  "IS 875-1:1987": {
+    "title": "Code of Practice for Design Loads (Other Than Earthquake) - Part 1: Dead Loads (Unit Weights)",
+    "clauses": {
+      "Table 1 - Cement concrete, reinforced": "With 1% steel: 2310-2470 kg/m³; with 2% steel: 2370-2530 kg/m³; with 5% steel: 2530-2700 kg/m³.",
+      "Table 1 - Cement concrete, plain": "With sand/gravel/crushed stone aggregate: 2240-2400 kg/m³.",
+      "Table 1 - Bricks (masonry, common burnt clay)": "1760 kg/m³ nominal for masonry brick.",
+      "Table 1 - Cement mortar": "2080 kg/m³.",
+      "Table 1 - Steel": "Wrought iron/steel: approx 7700-7850 kg/m³ (structural steel sections per Table 1 detailed listings)."
+    }
+  },
+  "IS 875-2:1987": {
+    "title": "Code of Practice for Design Loads (Other Than Earthquake) - Part 2: Imposed Loads",
+    "clauses": {
+      "Table 1(i)(a)1": "Dwelling houses - all rooms and kitchens: imposed UDL 2.0 kN/m², concentrated load 1.8 kN.",
+      "Table 1(i)(a)3": "Dwelling houses - corridors, passages, staircases including fire escapes and store rooms: UDL 3.0 kN/m² (store rooms 4.5 kN/m²).",
+      "Table 1(i)(a)4": "Dwelling houses - balconies: UDL 3.0 kN/m², concentrated 1.5 kN/m run at outer edge.",
+      "3.2.1": "Reduction in total imposed load for columns/walls per number of floors carried: 1 floor 0%, 2 floors 10%, 3 floors 20%, 4 floors 30%, 5-10 floors 40%, over 10 floors 50%.",
+      "Table 2(i)": "Flat/sloping/curved roof (slope <=10deg) with access provided: UDL 1.5 kN/m²; without access (maintenance only): 0.75 kN/m²."
+    }
+  }
+}
