@@ -4,3 +4,6 @@ data/*.db
 data/uploads/*
 !data/uploads/.gitkeep
 .env.local
+
+# Built APKs (produced by the Android build, not source)
+*.apk
